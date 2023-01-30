@@ -9,9 +9,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- This changelog file
-- GitHub Plugin URI to main plugin file to allow this plugin to be updated with the Git Updater plugin
-
 ### Changed
 
 ### Deprecated
@@ -19,9 +16,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 
 ### Fixed
-- Only initialize Ed11y for logged in users, fixes JS error in console for logged-out users
 
 ### Security
+
+## [0.1.1] - 2023-01-30
+### Added
+- This changelog file
+- GitHub Plugin URI to main plugin file to allow this plugin to be updated with the Git Updater plugin
+
+### Fixed
+- Only initialize Ed11y for logged in users, fixes JS error in console for logged-out users
 
 ## [0.1.0] - 2022-11-18
 
@@ -29,5 +33,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release
 
-[unreleased]: https://github.com/devcollaborative/editoria11y/compare/v1.1.0...HEAD
+[unreleased]: https://github.com/devcollaborative/editoria11y/compare/v0.1.0...HEAD
+[0.1.1]: https://github.com/devcollaborative/editoria11y/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/devcollaborative/editoria11y/releases/tag/v0.1.0

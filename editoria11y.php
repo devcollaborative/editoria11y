@@ -3,7 +3,7 @@
  * Plugin Name: Editoria11y Accessibility Checker
  * Plugin URI: https://github.com/devcollaborative/editoria11y
  * Description: A user-friendly accessibility checker, using <a href="https://github.com/itmaybejj/editoria11y">Editoria11y</a>.
- * Version: 0.1.0
+ * Version: 0.1.1
  * Author: DevCollaborative
  * Author URI: https://devcollaborative.com/
  * GitHub Plugin URI: devcollaborative/editoria11y
