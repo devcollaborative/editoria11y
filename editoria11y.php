@@ -37,12 +37,14 @@ add_action( 'wp_enqueue_scripts', 'editoria11y_enqueue_scripts' );
  * Initialize Editoria11y.
  */
 function editoria11y_init(){
-	?>
-		<script>
-			document.addEventListener('DOMContentLoaded', function() {
-				const ed11y = new Ed11y();
-			});
-		</script>
-	<?php
+	if ( is_user_logged_in() ) {
+		?>
+			<script>
+				document.addEventListener('DOMContentLoaded', function() {
+					const ed11y = new Ed11y();
+				});
+			</script>
+		<?php
+	}
 };
 add_action ('wp_footer', 'editoria11y_init', 100 );

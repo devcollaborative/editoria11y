@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Removed
 
 ### Fixed
+- Only initialize Ed11y for logged in users, fixes JS error in console for logged-out users
 
 ### Security
 
