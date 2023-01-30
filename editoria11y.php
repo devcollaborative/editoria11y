@@ -6,7 +6,8 @@
  * Version: 0.1.0
  * Author: DevCollaborative
  * Author URI: https://devcollaborative.com/
- * License:
+ * GitHub Plugin URI: devcollaborative/editoria11y
+ * Primary Branch: main
  */
 
 // Exit if accessed directly.
